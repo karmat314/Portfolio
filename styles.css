@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Inter";
+}
+
+.info {
+    background-color: #41b3a3;
+}
+
+header {
+    font-family: "Inter";
+    background-color: white;
+    padding: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #9e9d9d;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background-color: #f17a7e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 60px;
+}
+
+.contact-btn:hover {
+    background-color: #7d3e41;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    gap: 80px;
+    justify-content: center;
+}
+
+
+.profile-image {
+    width: 30%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.top-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left-text, .right-text {
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight:500;
+}
+
+.left-text {
+    padding-left: 10%;;
+}
+
+.services {
+    text-align: center;
+}
+
+.service-box {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    color:white;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    background-color: #85dcba;
+    border: 0px;
+    transition: background-color 1s ease;
+}
+
+.service-box:hover {
+    color: black;
+    background-color: white;
+    transition: background-color 1s ease;
+}
+
+.service-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: white;
+}
